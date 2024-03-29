@@ -144,7 +144,8 @@ footer{
 
 .current-song{
     display: flex;
-    /* justify-content: space-evenly; */
+    justify-content: space-evenly;
+    width: 30%;
 }
 .current-song img{
     width: 15%;
@@ -152,4 +153,14 @@ footer{
 }
 .song-name{
     font-size: 0.9rem;
+}
+
+.play{
+    width: 40%;
+    text-align: center;
+}
+
+.volume{
+    width: 30%;
+    text-align: right;
 }
