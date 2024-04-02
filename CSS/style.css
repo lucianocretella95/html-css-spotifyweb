@@ -167,12 +167,11 @@ footer{
 
 @media screen and (max-width: 500px) {
     header{
-        width: 20vw;
         height: 90vh;
         }
 
+
         main{
-            width: 400px;
             height: 90vh;
             overflow: auto;
             position: sticky;
@@ -184,13 +183,9 @@ footer{
         .img{
             display: flex;
             flex-wrap: wrap;
-            width: calc(100% / 2);
         }
 
         footer{
-            width: 640px;
             height:10vh;
-            position: absolute;
-            bottom: 0;
         }
 }
