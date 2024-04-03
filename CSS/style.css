@@ -5,11 +5,10 @@
     font-family: sans-serif;
 }
 
-
 header{
     background-color: black;
     color: white;
-    width: 20vw;
+    width: 21vw;
     height: 90vh;
     position: absolute;
     top:0;
@@ -20,7 +19,7 @@ header{
     margin-bottom: 0.5rem;
 }
 .logo img{
-    width: 85%;
+    width: 50%;
     margin-bottom: 0.5rem;
     margin-top: 0.5rem;
 }
@@ -46,7 +45,7 @@ header{
 main{
     background-color: slategrey;
     color: white;
-    width: 80vw;
+    width: 79vw;
     height: 90vh;
     overflow: auto;
     position: relative;
@@ -83,8 +82,7 @@ main{
     text-align: center;
 }
 .img img{
-    width: 100%;
-    padding: 0.3rem;
+    width: 50%;
 }
 .songs h2{
     margin-bottom: 1rem;
@@ -130,8 +128,8 @@ main{
 
 footer{
     background-color: lightgray;
-    width: 100vw;
-    height:10vh;
+    width: 100%;
+    height:7vh;
     position: absolute;
     bottom: 0;
 }
@@ -179,7 +177,7 @@ footer{
         }
 
         .utente{
-            font-size: 0.5rem;
+            font-size: 0.7rem;
         }
 
 
@@ -200,5 +198,43 @@ footer{
 
         footer{
             height:10vh;
+            width: 100%;
         }
+}
+
+@media screen and (max-width: 900px) {
+    header{
+        position: absolute;
+        top: 0;
+        height: 90vh;
+    }
+
+    main{
+        height: 90vh;
+        position: sticky;
+    }
+
+    .logo,
+    .playlist,
+    .utente{
+        font-size: 0.7rem;
+    }
+
+    .navbar{
+            display: flex;
+            flex-wrap: wrap;
+            font-size: 1.5rem;
+    }
+
+    .img{
+        display: flex;
+        flex-wrap: wrap;
+        width: 50%;
+    }
+    footer{
+        width: 100%;
+        height:10vh;
+        position: absolute;
+        bottom: 0;
+    }
 }
