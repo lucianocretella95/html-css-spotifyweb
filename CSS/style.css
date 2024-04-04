@@ -70,6 +70,7 @@ main{
 .upgrade button{
     margin-top: 0.8rem;
     margin-bottom: 0.9rem;
+    margin-right: 0.5rem;
     padding: 0.8rem;
     border-radius: 2rem;
     background-color: #222;
