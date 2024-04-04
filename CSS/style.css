@@ -7,16 +7,23 @@
 
 header{
     background-color: black;
-    color: white;
+    color: dimgrey;
     width: 21vw;
     height: 89vh;
     position: absolute;
     top:0;
 }
+.logo:hover,
+.playlist:hover,
+.utente:hover{
+    animation: infinite;
+    color: white;
+}
 
 .logo{
     font-size: 0.9rem;
     margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
 }
 .logo img{
     width: 50%;
@@ -26,6 +33,7 @@ header{
 
 .playlist{
     font-size: 0.9rem;
+    margin-left: 0.5rem;
 }
 .playlist p{
     margin-top: 0.5rem;
@@ -36,6 +44,7 @@ header{
     font-size: 0.9rem;
     position: absolute;
     bottom: 0;
+    margin-left: 0.5rem;
 }
 .utente p{
     margin-top: 0.5rem;
@@ -65,6 +74,11 @@ main{
     border-radius: 2rem;
     background-color: #222;
     color: white;
+    border: solid white;
+}
+.upgrade button:hover{
+    animation: infinite;
+    transform: scale(1.1);
 }
 
 .navbar{
@@ -74,6 +88,14 @@ main{
     margin-top: 0.5rem;
     margin-bottom: 1rem;
 }
+.description p{
+    display: none;
+}
+
+.description:hover p{
+    display: block;
+}
+
 
 .img{
     display: flex;
@@ -191,6 +213,14 @@ footer{
             flex-wrap: wrap;
             font-size: 0.9rem;
         }
+
+        .description p{
+            display: none;
+        }
+        
+        .description:hover p{
+            display: block;
+        }
         .img{
             display: flex;
             flex-wrap: wrap;
@@ -226,6 +256,14 @@ footer{
             font-size: 1.5rem;
     }
 
+    .description p{
+        display: none;
+    }
+    
+    .description:hover p{
+        display: block;
+    }
+    
     .img{
         display: flex;
         flex-wrap: wrap;
